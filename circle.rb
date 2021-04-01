@@ -4,4 +4,8 @@ class Circle
         @x = x
         @y = y
     end
+
+    def area
+        Mathe::PI * @radius**2
+    end
 end
